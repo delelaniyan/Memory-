@@ -1,5 +1,10 @@
 // Scroll down to "About" for instructions on this project ↓
 
+function setup() {
+  createCanvas(400, 400);
+}
+function draw() {
+    
 var Tile = function(x, y, face) {
     this.x = x;
     this.y = y;
@@ -142,3 +147,4 @@ draw = function() {
 };
 
 noLoop();
+}
